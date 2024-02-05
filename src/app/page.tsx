@@ -77,7 +77,7 @@ const Board = () => {
   }
 
   return (
-    <div className="ttt">
+    <>
       <div className="ttt-status">
         <span>
           <label
@@ -175,7 +175,7 @@ const Board = () => {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
